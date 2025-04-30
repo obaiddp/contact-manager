@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // connect
-mongoose.connect('mongodb+srv://obaidullahzeb182:obaid123@cluster0.chrpiit.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect(MONGOOSE_URI);
 
 // create schema
 const UserSchema = new mongoose.Schema({
